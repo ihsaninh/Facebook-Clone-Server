@@ -4,7 +4,12 @@ const users = require('../models').users
 const posts = require('../models').posts
 
 router.get('/', function (req, res, next) {
-    posts.findAll({ include: users })
+    posts.findAll({ 
+        include: users, 
+        order: [
+            ['createdAt', 'DESC']
+        ] 
+    })
         .then(data => {
             res.status(200).json(data);
         })
@@ -66,7 +71,7 @@ router.post('/', (req, res, next) => {
 router.put('/:id', (req, res, next) => {
     let body = {
 
-        content: req.body.content,
+        post: req.body.post,
 
     }
 
