@@ -44,9 +44,14 @@ Express.js, or simply Express, is a web application framework for Node.js, relea
    $ cd fb-clone-server
    $ npm install
    ```
-3. Run Facebook Clone
+3. Database Configuration
+   - Create database fbserver using phpmyadmin or other tools
+   - Run this command to migrate Database tables
    ```
    $ sequelize db:migrate
+   ```
+4. Run Facebook Clone
+   ```
    $ nodemon start
    ```
 
