@@ -64,6 +64,3 @@ Express.js, or simply Express, is a web application framework for Node.js, relea
   </table>
 </center>
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
