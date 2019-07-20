@@ -26,7 +26,7 @@ Express.js, or simply Express, is a web application framework for Node.js, relea
 * And more..
 
 ## Requirements
-* [`npm`](https://www.npmjs.com/get-npm) or [`yarn`](https://yarnpkg.com/) 
+* [`npm`](https://www.npmjs.com/get-npm)
 * [`Express.js`](https://expressjs.com/)
 * [`Sequelize ORM`](http://docs.sequelizejs.com/)
 * [`Json Web Token`](https://jwt.io/)
@@ -41,8 +41,8 @@ Express.js, or simply Express, is a web application framework for Node.js, relea
    ```
 2. Install all depedencies on the package.json
    ```
-      cd fb-clone-server
-      npm install or yarn (if you using yarn)
+   $ cd fb-clone-server
+   $ npm install
    ```
 3. Run Facebook Clone
    ```
